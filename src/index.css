@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ccc;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ 
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  margin-top:300px ;
+ 
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  height: auto;
+  width: 300px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.input input{
+  height: 50px;
+  font-size: 19px;
+}
+
+h1{
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.boton{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boton button{
+  width: 100px;
+  font-size: 18px;
+  font-weight: 500;
 }
